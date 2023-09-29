@@ -31,4 +31,4 @@ that? How will you keep that information out of your repository?
 
 ## Initial design plan:
 
-![ExcaliDraw Design](img/image.png)
+![ExcaliDraw Design](img/design_plan.png)
