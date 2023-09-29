@@ -27,3 +27,8 @@ mocks too.
 Fair warning: if you push your Twilio API Key to a public GitHub repository,
 anyone will be able to see and use it. What are the security implications of
 that? How will you keep that information out of your repository?
+
+
+## Initial design plan:
+
+![ExcaliDraw Design](img/image.png)
