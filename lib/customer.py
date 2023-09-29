@@ -1,11 +1,12 @@
 
 class Customer():
 
-    def __init__(self, name) -> None:
-        # attributes: name (string), order (list of Order instances)
+    def __init__(self) -> None:
+        # attributes: order (list of Order instances)
+        # Parameters: Nothing
         # Returns: Nothing
-        # Side-effects: assign name and order
-        pass
+        # Side-effects: assign self._order (A list of Orders)
+        self._order = []
     
     def view_menu(self):
         # Parameters: Nothing
@@ -27,9 +28,9 @@ class Customer():
 
     def view_order(self):
         # Parameters: Nothing
-        # Return: string representing order dictionary
+        # Return: string representing items on the order
         # Side-effects: Nothing
-        pass
+        return self._order
 
     def complete_order(self):
         # Parameters: Nothing
