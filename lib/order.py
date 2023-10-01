@@ -3,17 +3,21 @@
 class Order():
 
     def __init__(self):
-        # self.items = {}
+        # self._order = {}
         # Parameters: Nothing
         # Returns: Nothing
         # Side-effects: Establishes self._items (dict), self._is_complete = False
-        pass
+        self._order = {}
+        self._is_complete = False
+
+    def view_order(self):
+        return self._order
         
     def mark_complete(self):
         # Parameters: Nothing
         # Return: Nothing
         # Side-effect: self._is_complete set to True
-        pass
+        self._is_complete = True
 
     def print_receipt(self):
         # Parameters: Nothing

@@ -1,3 +1,5 @@
+from lib.menu import Menu
+
 
 class Customer():
 
@@ -8,11 +10,11 @@ class Customer():
         # Side-effects: assign self._order (A list of Orders)
         self._order = []
     
-    def view_menu(self):
+    def view_menu(self, menu):
         # Parameters: Nothing
         # Return: string representing menu dictionary
         # Side-effects: Nothing
-        pass
+        return menu.view_menu()
 
     def start_order(self):
         # Parameters: Nothing
